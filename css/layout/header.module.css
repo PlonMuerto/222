@@ -1,0 +1,155 @@
+.header{
+	width:100%;
+	padding: 0px;
+	padding-top: 60px;
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(0deg, #fcc437, #F8BC21);
+	
+	
+}
+
+.header .redes{
+	display: flex;
+	width: 90%;
+	top: 0;
+	height: 35px;
+	justify-content: flex-end;
+	background-color: red;
+	position: absolute;
+}
+
+
+
+.header .navbar{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	margin-top: 10px;
+	z-index: 2;
+	height: 40px;
+
+}
+
+.header .navbar .menuleft{
+	height: 45px;
+	z-index: 1;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+	
+	align-items: center;
+	width: calc(50% - 50px);
+	background-color: #AB1919;
+}
+
+.header .navbar .logo{
+	margin: 0;
+	z-index: 2; 
+	display: block;
+	padding: 20px;
+	top: -44px;
+	width:130px;
+	height: 130px;
+	position: relative;
+}
+.header .navbar .logo .menulink{
+	z-index: -1;
+	border-radius: 50%;
+	left: -15px;
+	clip-path:polygon(100% 100%,0% 100%, 0% 40%, 100% 40%);
+	top: -20px;
+	position: absolute;
+	background-color: #AB1919;
+	width: calc(100% + 30px);
+	cursor: pointer;
+	height: calc(100% + 30px);
+}
+
+.header .navbar .logo .menulink .letter{
+	height:25px;
+	width: 20px;
+	position: absolute;	
+	font-weight: 900;
+	color: rgb(255, 179, 38);
+	text-align: center;
+}
+
+.header .navbar .logo .menulink .letter:hover{
+	transform: scale(1.05);
+}
+.header .navbar .logo .menulink .letter:nth-child(1){
+	bottom: 10%;
+	
+	transform: rotate(40deg);
+	left: 20%;
+}
+.header .navbar .logo .menulink .letter:nth-child(2){
+	bottom:3%;
+	
+	transform: rotate(13deg);
+	left: 35.5%;
+}
+.header .navbar .logo .menulink .letter:nth-child(3){
+	bottom: 3%;
+	transform: rotate(-13deg);
+	right: 35.5%;
+}
+.header .navbar .logo .menulink .letter:nth-child(4){
+	bottom: 10%;
+	
+	transform: rotate(-40deg);
+	right: 20%;
+}
+
+.header .navbar .logo .image{
+	cursor: pointer;
+	z-index: 2;
+	width: 100%;
+	position: relative;
+	top: -40px;
+}
+
+.header .navbar .logo .image img{
+	width: 100%;
+}
+
+.header .navbar .menuright{
+	width: calc(50% - 50px);
+	z-index: 1;
+	background-color: #AB1919;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: 20px;
+}
+
+
+.header .navbar .link{
+	padding: 10px;
+	border-radius: 30px;
+	color:rgb(247, 247, 247);
+	text-align: center;
+	width: 50%;
+	font-size: 13px;
+	min-width: 70px;
+	max-width: 300px;
+	text-transform: capitalize;
+	font-weight: 900;
+	margin: 5px 0;
+	font-family: 'Alfa Slab One', Courier, monospace;
+}
+.header .navbar .link:hover{
+	cursor: pointer;
+	transform: scale(1.03);
+}
+
+#actived{
+	color:#333;
+	margin: 0;
+	background-color: #ffcd29;
+}

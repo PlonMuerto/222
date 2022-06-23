@@ -1,0 +1,21 @@
+#menu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("http://mrjoe.com.co/wp-content/uploads/2020/12/CJT6386-scaled.jpg");
+	background-position: 0% ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	width: 100%;
+}
+
+#menu .title{
+	font-size: 32px;
+	background-color: rgb(30,30,30);
+	color: #fcc210;
+	padding: 10px;
+	padding-top: 5px;
+	text-transform: capitalize;
+	margin-top: 30px;
+}
